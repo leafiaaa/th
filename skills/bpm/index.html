@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/th/" />
-    <title>xNinja.企業流程管理</title>
+    <title>xNinja.Business Process Management</title>
     <link rel="icon" type="image/webp" href="xNinja_favicon.webp" />
     <meta
       name="description"
@@ -26,33 +26,36 @@
   <body>
     <div id="navbar-placeholder"></div>
     <div class="content__margin">
-      <div class="main__title">
-        xNinja.企業流程管理（Business Process Management, BPM）
-      </div>
+      <div class="main__title">xNinja.Business Process Management</div>
       <p class="section__subtitle">
-        整合電子表單設計、流程自動化、報表管理與數據分析於單一平台，並支援多元
-        API 串接，無縫整合企業既有資訊系統，打造彈性數位流程。
-        無需撰寫程式，即可快速將紙本作業數位化、標準化並自動化，大幅提升營運效率與流程治理能力。
+        <b>ระบบบริหารจัดการกระบวนการทางธุรกิจ (BPM)</b>
+        รวมการออกแบบ eForm, เวิร์กโฟลว์อัตโนมัติ, รายงาน
+        และการวิเคราะห์ข้อมูลไว้ในแพลตฟอร์มเดียว
+        พร้อมเชื่อมต่อกับระบบการจัดการอื่น ๆ ผ่าน API
+        เพื่อสร้างกระบวนการทำงานแบบครบวงจร
+        ช่วยเปลี่ยนงานเอกสารรูปแบบกระดาษให้เป็นดิจิทัล ลดความซับซ้อน
+        และเพิ่มประสิทธิภาพ โดยไม่ต้องเขียนโค้ด
       </p>
 
       <div class="bpm__divider">
-        <span class="bpm__tab modules-text">功能特色</span>
+        <span class="bpm__tab modules-text"> โมดูลหลัก</span>
       </div>
       <!-- eForm Designer -->
       <article class="bpm-module">
         <div class="bpm-module__body reveal reveal--left">
           <h3 class="bpm-module__heading">
-            <span>電子表單設計(eForm Designer)</span>
+            <span>การออกแบบ</span>
           </h3>
           <ul class="bpm-module__list text-body">
             <li>
-              <strong>專利表單編輯器:</strong>
-              提供多元且彈性的表單建立方式，可透過系統欄位配置、匯入既有 Word
-              文件內容，或直接套用預設範本，快速建立專屬電子表單，所見即所得。
+              <strong>ออกแบบ eForm ได้ตามความต้องการ:</strong>
+              สร้าง eForm ได้ไม่จำกัดด้วยวิธีที่หลากหลาย เช่น
+              ใช้เครื่องมือในระบบ, คัดลอกจาก Microsoft Word
+              หรือเลือกใช้เทมเพลตสำเร็จรูป
             </li>
             <li>
-              <strong>彈性流程引擎:</strong>
-              依據企業標準作業流程（SOP）需求，自由設計與配置簽核流程，滿足各類業務場景需求。
+              <strong> ตั้งค่าเวิร์กโฟลว์ (workflow) ได้อย่างยืดหยุ่น:</strong>
+              สามารถออกแบบและปรับแต่งเวิร์กโฟลว์ให้สอดคล้องกับ SOP ขององค์กร
             </li>
           </ul>
         </div>
@@ -71,24 +74,28 @@
       <article class="bpm-module">
         <div class="bpm-module__body reveal reveal--right">
           <h3 class="bpm-module__heading">
-            <span>電子表單作業（eForm Submission）</span>
+            <span>แบบฟอร์ม</span>
           </h3>
           <ul class="bpm-module__list text-body">
             <li>
-              <strong>即時線上起單:</strong>
-              使用者可依照需求申請電子表單，附加相關文件，並參考歷史申請紀錄，提高作業便利性與完整性。
+              <strong> กรอกแบบฟอร์มได้แบบ Real-Time:</strong>
+              ผู้ใช้งานสามารถกรอก eForm แนบไฟล์ที่เกี่ยวข้อง หรืออ้างอิง eForm
+              ที่เคยส่งก่อนหน้า พร้อมดูรายละเอียดข้อมูลได้อย่างชัดเจน
             </li>
             <li>
-              <strong>自動化通知機制:</strong
-              >系統自動發送待辦與簽核通知，確保流程順暢推進，提升作業效率。
+              <strong> ระบบแจ้งเตือนอัตโนมัติ:</strong
+              >แจ้งเตือนผู้รับผิดชอบทันทีเมื่อมีรายการรอดำเนินการหรือรอการอนุมัติ
+              ช่วยให้ Workflow ดำเนินไปอย่างรวดเร็ว
             </li>
             <li>
-              <strong>完整流程追蹤 :</strong>
-              從送出、簽核、退回、修改到留言紀錄，所有流程動作皆完整保存與追蹤，確保流程透明可稽核。
+              <strong> ติดตามประวัติและสถานะการดำเนินงาน:</strong>
+              ตรวจสอบความคืบหน้าของ Workflow รวมถึงประวัติการส่ง แก้ไข
+              แสดงความคิดเห็น และการดำเนินการต่าง ๆ ได้อย่างครบถ้วน
             </li>
             <li>
-              <strong>跨裝置存取:</strong>
-              支援手機、平板與桌面裝置，隨時隨地完成表單填報、審核與簽核作業。
+              <strong>รองรับการใช้งานทุกอุปกรณ์:</strong>
+              ส่ง ตรวจสอบ และอนุมัติ eForm ได้อย่างสะดวกผ่านสมาร์ตโฟน แท็บเล็ต
+              และคอมพิวเตอร์
             </li>
           </ul>
         </div>
@@ -107,12 +114,14 @@
       <article class="bpm-module">
         <div class="bpm-module__body reveal reveal--left">
           <h3 class="bpm-module__heading">
-            <span>電子表單報表（eForm Report）</span>
+            <span>รายงาน</span>
           </h3>
           <ul class="bpm-module__list text-body">
             <li>
-              <strong>智慧報表分析:</strong>
-              依據各類表單資料，自定義分析報表，協助管理者掌握關鍵營運指標與業務洞察，支援數據驅動決策。
+              <strong>สร้างรายงานการวิเคราะห์ข้อมูลอัตโนมัติ:</strong>
+              สร้างรายงานจากข้อมูลภายใน eForm ที่เลือกได้ตามความต้องการ
+              ช่วยให้ผู้บริหารและผู้จัดการเข้าถึงข้อมูลเชิงลึก
+              เพื่อนำไปวิเคราะห์และสนับสนุนการตัดสินใจทางธุรกิจ
             </li>
           </ul>
         </div>
@@ -131,16 +140,19 @@
       <article class="bpm-module">
         <div class="bpm-module__body reveal reveal--right">
           <h3 class="bpm-module__heading">
-            <span>電子表單分析（eForm Analysis）</span>
+            <span>การวิเคราะห์กระบวนการ การวิเคราะห์แบบฟอร์ม</span>
           </h3>
           <ul class="bpm-module__list text-body">
             <li>
-              <strong>營運效率量化分析:</strong>
-              透過數據化指標呈現無紙化轉型成果，清楚衡量組織效率提升度與碳排放減少量。
+              <strong>วิเคราะห์ประสิทธิภาพการดำเนินงาน:</strong>
+              แสดงผลลัพธ์และตัวเลขที่ชัดเจนเกี่ยวกับการเพิ่มประสิทธิภาพการดำเนินงาน
+              เพื่อช่วยให้องค์กรประเมินผลและปรับปรุงกระบวนการได้อย่างมีประสิทธิภาพ
             </li>
             <li>
-              <strong>ESG 永續治理洞察:</strong> 協助企業推動 ESG
-              目標，包括降低紙本使用、提升跨部門協作效率、強化法規遵循能力，以及優化資料治理與管理機制。
+              <strong>ข้อมูลเชิงลึกด้าน ESG:</strong> สนับสนุนการดำเนินงานด้าน
+              ESG ผ่านการลดการใช้กระดาษ เพิ่มประสิทธิภาพการทำงานร่วมกัน
+              ยกระดับการปฏิบัติตามข้อกำหนด
+              และปรับปรุงการบริหารจัดการข้อมูลขององค์กร
             </li>
           </ul>
         </div>
@@ -157,7 +169,10 @@
 
       <section class="techniques">
         <div class="techniques__inner">
-          <span class="main__heading paragraph__center">xNinja 智慧技能</span>
+          <span class="main__heading paragraph__center"
+            >เทคนิคเฉพาะของ xNinja เพื่อยกระดับเวิร์กโฟลว์ (Workflow)
+            อัจฉริยะขององค์กร</span
+          >
           <!-- Full-width video block -->
           <div class="tecniques__video">
             <div class="video-facade" data-youtube-id="NPxpjpz5WTE">
@@ -197,7 +212,9 @@
                 </div>
 
                 <div class="tech-group__accordion" data-tech-group>
-                  <h3 class="subheading paragraph__center">秒速生成電子表單</h3>
+                  <h3 class="subheading paragraph__center">
+                    สร้าง eForm พร้อมใช้งานสำหรับองค์กร
+                  </h3>
                   <div
                     class="tech-item is-open"
                     data-image="assets/images/01_BPM_AccelerateDigitalization.webp"
@@ -207,43 +224,8 @@
                       type="button"
                       aria-expanded="true"
                     >
-                      <span class="tech-item__label">加速數位轉型</span>
-                      <span class="tech-item__arrow">
-                        <svg
-                          width="20"
-                          height="20"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                    <div class="tech-item__detail">
-                      <p class="text-body">
-                        透過 AI 輔助，僅需數秒內便可生成可使用的電子表單。
-                      </p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="tech-item"
-                    data-image="assets/images/02_BPM_ReduceManual.webp"
-                  >
-                    <button
-                      class="tech-item__tab"
-                      type="button"
-                      aria-expanded="false"
-                    >
                       <span class="tech-item__label"
-                        >降低人工作業與錯誤風險</span
+                        >เร่งการเปลี่ยนผ่านสู่ดิจิทัล</span
                       >
                       <span class="tech-item__arrow">
                         <svg
@@ -265,7 +247,46 @@
                     </button>
                     <div class="tech-item__detail">
                       <p class="text-body">
-                        減少重複性表單設計工作，有效降低設定錯誤與人為疏失。
+                        สร้างแบบฟอร์มดิจิทัลพร้อมใช้งานได้อย่างรวดเร็ว
+                        ลดระยะเวลาในการจัดทำเอกสาร
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tech-item"
+                    data-image="assets/images/02_BPM_ReduceManual.webp"
+                  >
+                    <button
+                      class="tech-item__tab"
+                      type="button"
+                      aria-expanded="false"
+                    >
+                      <span class="tech-item__label"
+                        >ลดงานซ้ำซ้อนและข้อผิดพลาดในการทำงาน</span
+                      >
+                      <span class="tech-item__arrow">
+                        <svg
+                          width="20"
+                          height="20"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <div class="tech-item__detail">
+                      <p class="text-body">
+                        ลดขั้นตอนการออกแบบและการตั้งค่าแบบฟอร์มด้วยตนเอง
+                        พร้อมลดความผิดพลาดจาก Human Error
                       </p>
                     </div>
                   </div>
@@ -279,7 +300,9 @@
                       type="button"
                       aria-expanded="false"
                     >
-                      <span class="tech-item__label">打破語言限制</span>
+                      <span class="tech-item__label"
+                        >รองรับการใช้งานหลายภาษา</span
+                      >
                       <span class="tech-item__arrow">
                         <svg
                           width="20"
@@ -300,7 +323,8 @@
                     </button>
                     <div class="tech-item__detail">
                       <p class="text-body">
-                        支援多國語言表單快速生成，滿足跨國企業與全球化團隊需求。
+                        สร้าง eForm ได้หลายภาษา
+                        รองรับการทำงานขององค์กรที่มีทีมงานและการดำเนินงานในระดับสากล
                       </p>
                     </div>
                   </div>
@@ -314,7 +338,9 @@
                       type="button"
                       aria-expanded="false"
                     >
-                      <span class="tech-item__label">維持設計一致性</span>
+                      <span class="tech-item__label"
+                        >รักษามาตรฐานการออกแบบแบบฟอร์ม</span
+                      >
                       <span class="tech-item__arrow">
                         <svg
                           width="20"
@@ -335,7 +361,8 @@
                     </button>
                     <div class="tech-item__detail">
                       <p class="text-body">
-                        依據企業既有格式與設計規範建立表單，確保品牌形象與使用體驗一致。
+                        กำหนดรูปแบบและสไตล์ของ eForm
+                        ให้มีความสอดคล้องกันทั่วทั้งองค์กร
                       </p>
                     </div>
                   </div>
@@ -356,7 +383,7 @@
 
                 <div class="tech-group__accordion" data-tech-group>
                   <h3 class="subheading paragraph__center">
-                    智慧 OCR 文件辨識與資料擷取
+                    ระบบ OCR อัจฉริยะสำหรับแปลงเอกสารและดึงข้อมูล
                   </h3>
                   <div
                     class="tech-item is-open"
@@ -367,7 +394,9 @@
                       type="button"
                       aria-expanded="true"
                     >
-                      <span class="tech-item__label">紙本資料數位化</span>
+                      <span class="tech-item__label"
+                        >เปลี่ยนเอกสารกระดาษเป็นข้อมูลดิจิทัล</span
+                      >
                       <span class="tech-item__arrow">
                         <svg
                           width="20"
@@ -388,7 +417,8 @@
                     </button>
                     <div class="tech-item__detail">
                       <p class="text-body">
-                        自動辨識掃描文件與影像內容，快速擷取關鍵資訊並轉換為結構化數據。
+                        แปลงข้อมูลจากเอกสารสแกนหรือรูปภาพ
+                        พร้อมดึงข้อมูลเข้าสู่แบบฟอร์มดิจิทัลโดยอัตโนมัติ
                       </p>
                     </div>
                   </div>
@@ -402,7 +432,9 @@
                       type="button"
                       aria-expanded="false"
                     >
-                      <span class="tech-item__label">降低人工輸入成本</span>
+                      <span class="tech-item__label"
+                        >ลดการป้อนข้อมูลด้วยตนเอง</span
+                      >
                       <span class="tech-item__arrow">
                         <svg
                           width="20"
@@ -423,7 +455,8 @@
                     </button>
                     <div class="tech-item__detail">
                       <p class="text-body">
-                        減少重複性資料輸入與轉錄工作，提高資料處理效率與準確性。
+                        ลดขั้นตอนการกรอกข้อมูลและการคีย์ข้อมูลซ้ำ ๆ
+                        เพิ่มความรวดเร็วและลดข้อผิดพลาดในการทำงาน
                       </p>
                     </div>
                   </div>
