@@ -5,7 +5,7 @@
 }
 
 :root {
-  --font-tw: "Noto Sans TC", sans-serif;
+  --font-th: "Noto Sans Thai", sans-serif;
   --font-en: "Montserrat", "Montserrat Fallback", sans-serif;
 
   /* --------------------------------------------------------------------------
@@ -248,7 +248,7 @@
 
 /* --- Label (UI / uppercase caps) --- */
 .text-label {
-  font-family: var(--font-tw); /* always EN font for labels */
+  font-family: var(--font-th); /* always EN font for labels */
   font-size: var(--scale-2xs);
   font-weight: var(--weight-semibold);
   line-height: var(--lh-label);

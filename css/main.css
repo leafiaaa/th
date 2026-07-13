@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: var(--font-en), var(--font-tw), sans-serif;
+  font-family: var(--font-en), var(--font-th), sans-serif;
 }
 body {
   background-color: var(--color-surface);
@@ -27,7 +27,7 @@ section {
   justify-content: center;
 }
 .section__subtitle {
-  font-family: var(--font-en), var(--font-tw);
+  font-family: var(--font-en), var(--font-th);
   margin-top: var(--space-3);
   margin-bottom: var(--space-3);
   color: var(--color-ink-secondary);
@@ -38,7 +38,7 @@ section {
   text-align: center;
 }
 .main__title {
-  font-family: var(--font-en), var(--font-tw);
+  font-family: var(--font-en), var(--font-th);
   font-weight: var(--weight-semibold);
   font-size: var(--scale-3xl);
   color: var(--color-ink);
@@ -46,7 +46,7 @@ section {
 }
 .main__heading {
   margin: 0 0 var(--space-4);
-  font-family: var(--font-en), var(--font-tw);
+  font-family: var(--font-en), var(--font-th);
   font-weight: var(--weight-semibold);
   font-size: var(--scale-2xl);
   color: var(--color-ink);
@@ -54,14 +54,14 @@ section {
 }
 .subheading {
   margin: 0 0 var(--space-6);
-  font-family: var(--font-en), var(--font-tw);
+  font-family: var(--font-en), var(--font-th);
   font-weight: var(--weight-semibold);
   font-size: var(--scale-lg);
   color: var(--color-ink);
 }
 .quote {
   color: var(--color-blue-disabled);
-  font-family: var(--font-en), var(--font-tw), var(--font-th), sans-serif;
+  font-family: var(--font-en), var(--font-th), sans-serif;
   font-weight: var(--weight-semibold);
   font-size: var(--scale-sm);
   font-style: italic;
