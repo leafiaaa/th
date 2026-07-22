@@ -248,7 +248,7 @@
 
 /* --- Label (UI / uppercase caps) --- */
 .text-label {
-  font-family: var(--font-en); /* always EN font for labels */
+  font-family: var(--font-en), var(--font-th); /* always EN font for labels */
   font-size: var(--scale-2xs);
   font-weight: var(--weight-semibold);
   line-height: var(--lh-label);
