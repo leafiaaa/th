@@ -189,7 +189,9 @@ document.querySelectorAll('.toc a[href^="#"]').forEach((link) => {
     e.preventDefault();
     const target = document.getElementById(link.getAttribute("href").slice(1));
     if (!target) return;
-    const navbar = document.querySelector(".navbar"); // adjust selector
+    const navbarEl = document.querySelector(
+      "#navbar-placeholder",
+    ).firstElementChild;
     const offset = navbar ? navbar.offsetHeight : 0;
     const y = target.getBoundingClientRect().top + window.scrollY - offset;
     window.scrollTo({ top: y, behavior: "smooth" });
